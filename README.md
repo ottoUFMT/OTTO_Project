@@ -1,5 +1,5 @@
 
-# Repositorio dos códigos Otto 2.0
+# Repositorio dos códigos Otto 1.0
 
 Este repositório tem os novos códigos versão 2.0 do Otto e as versões das bibliotecas utilizadas no código, tão somente para uso do interno.
 
