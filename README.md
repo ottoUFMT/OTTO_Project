@@ -51,8 +51,8 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 
 Segue alguns projetos relacionados
 
-[Key pad](https://playground.arduino.cc/Code/Keypad/#Download)
-[DFPlayer - A Mini MP3 Player For Arduino](https://github.com/DFRobot/DFRobotDFPlayerMini)
+- [Key pad](https://playground.arduino.cc/Code/Keypad/#Download)
+- [DFPlayer - A Mini MP3 Player For Arduino](https://github.com/DFRobot/DFRobotDFPlayerMini)
 
 
 
