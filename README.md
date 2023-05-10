@@ -67,3 +67,54 @@ Segue alguns projetos relacionados
 
 - [@defaultdayanni](https://github.com/defaultdayanni?tab=repositories)
 
+# Modelagem e impressão 3D - Robô Otto 1.0
+
+<img src="exemplo-image.png" alt="exemplo imagem">
+
+> Neste arquivo há arquivos relativos a modelagem e os códigos .gcode do Robô Otto 1.0.
+
+### Arquivos neste projeto
+
+O projeto foi desenvolvido, utilizando:
+
+- [x] Autodesk Fusion 360
+- [x] Ultimaker Cura 3.0
+- [x] Impressora 3D com mesa com tamanho mínimo de 25x25cm
+
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente de `<Autodesk Fusion 360>`
+* Impressora 3D com mesa de dimensão mínima de 25x25cm
+* Sistema operacional `<Windows / Linux / Mac>`.
+
+## ☕ Usando <Modelagem e impressão 3D - Robô Otto 1.0>
+
+Para usar, siga estas etapas:
+
+```
+Baixe as pastas: 
+>.gcode
+>modelagem
+```
+## 🤝 Criador da modelagem e arquivos Otto 1.0
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gabereboucas">
+        <img src="https://avatars.githubusercontent.com/u/95108527?v=4" width="100px;" alt="Foto do Gabriel Rebouças no GitHub"/><br>
+        <sub>
+          <b>Gabriel Rebouças</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📝 Autor
+[Gabriel Rebouças](https://github.com/gabereboucas)<br>
+
+
