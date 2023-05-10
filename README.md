@@ -113,5 +113,6 @@ Baixe a pasta:
 
 ## 📝 Autor
 [Gabriel Rebouças](https://github.com/gabereboucas)<br>
+- [@gabereboucas](https://github.com/gabereboucas?tab=repositories)
 
 
