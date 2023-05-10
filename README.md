@@ -69,8 +69,6 @@ Segue alguns projetos relacionados
 
 # Modelagem e impressão 3D - Robô Otto 1.0
 
-<img src="exemplo-image.png" alt="exemplo imagem">
-
 > Neste arquivo há arquivos relativos a modelagem e os códigos .gcode do Robô Otto 1.0.
 
 ### Arquivos neste projeto
@@ -88,16 +86,15 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você instalou a versão mais recente de `<Autodesk Fusion 360>`
 * Impressora 3D com mesa de dimensão mínima de 25x25cm
-* Sistema operacional `<Windows / Linux / Mac>`.
+* Sistema operacional `<Windows ou Mac>`.
 
 ## ☕ Usando <Modelagem e impressão 3D - Robô Otto 1.0>
 
 Para usar, siga estas etapas:
 
 ```
-Baixe as pastas: 
->.gcode
->modelagem
+Baixe a pasta: 
+>> otto 1.0-stl
 ```
 ## 🤝 Criador da modelagem e arquivos Otto 1.0
 
