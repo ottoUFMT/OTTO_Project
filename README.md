@@ -69,9 +69,9 @@ Segue alguns projetos relacionados
 
 # Modelagem e impressão 3D - Robô Otto 1.0
 
-> Neste arquivo há arquivos relativos a modelagem e os códigos .gcode do Robô Otto 1.0.
+> Neste arquivo há os .stl's de modelagem do Robô Otto 1.0.
 
-### Arquivos neste projeto
+### Softwares/requisitos para ver os arquivos 
 
 O projeto foi desenvolvido, utilizando:
 
