@@ -15,7 +15,7 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 
 | Biblioteca               | Versão |                   link                      |
 | ------------------------ | -------|---------------------------------------------|
-| Arduino.h                |  1.8.19     | [link](https://link-da-documentação)|
+| Arduino.h                |  1.8.19     | [link](https://www.arduino.cc/en/software/OldSoftwareReleases#previous)|
 | SoftwareSerial.h         |  ?     | [link](https://link-da-documentação)|
 | DFRobotDFPlayerMini.h    |  ?     | [link](https://link-da-documentação)|
 | LedControl.h             |  ?     | [link](https://link-da-documentação)|
