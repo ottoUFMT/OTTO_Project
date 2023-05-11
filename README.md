@@ -15,7 +15,7 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 
 | Biblioteca               | Versão |                   link                      |
 | ------------------------ | -------|---------------------------------------------|
-| Arduino.h                |  ?     | [link](https://link-da-documentação)|
+| Arduino.h                |  1.8.19     | [link](https://link-da-documentação)|
 | SoftwareSerial.h         |  ?     | [link](https://link-da-documentação)|
 | DFRobotDFPlayerMini.h    |  ?     | [link](https://link-da-documentação)|
 | LedControl.h             |  ?     | [link](https://link-da-documentação)|
@@ -24,7 +24,7 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 | IRremote.h               |  ?     | [link](https://github.com/Arduino-IRremote/Arduino-IRremote)|
 | avr/wdt.h                |  ?     | [link](https://link-da-documentação)|
 | Servo.h                  |  ?     | [link](https://link-da-documentacao)|
-| Adafruit NeoPixel        |  ?     | [link](https://github.com/adafruit/Adafruit_Keypad)|
+| Keypad                   |  3.1.0     | [link](https://playground.arduino.cc/Code/Keypad/)|
 
 
 ## Funcionalidades atuais
@@ -39,7 +39,7 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 
 ## Proximo 
 
-- Trocar teclado numerico por toch
+- Trocar teclado numerico por touch
 
 - movimentação das orelhas e corpo 
 
@@ -61,11 +61,14 @@ Segue alguns projetos relacionados
  - [Visual studio](https://visualstudio.microsoft.com/pt-br/#vs-section)
  - [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
  - [Arduino](https://www.arduino.cc/en/software) 
+ - [Arduino versões anteriores](https://www.arduino.cc/en/software/OldSoftwareReleases#previous)
 
 
 ## Autores
 
 - [@defaultdayanni](https://github.com/defaultdayanni?tab=repositories)
+
+
 
 # Modelagem e impressão 3D - Robô Otto 1.0
 
