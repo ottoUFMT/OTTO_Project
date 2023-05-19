@@ -246,7 +246,7 @@ void setup() {
   mySoftwareSerial.begin(9600);
   //Inicializa a serial do Arduino
 
-  Serial.begin(115200);   //Inicia a serial
+  Serial.begin(9600);   //Inicia a serial
   SPI.begin();      //Inicia  SPI bus
   mfrc522.PCD_Init();   //Inicia MFRC522
 Serial.println("A");
@@ -1033,7 +1033,6 @@ delay(1000);
 void loop()
 {
   
-}
   if (irrecv.decode(&results))  
   {  
     Serial.println(results.value, HEX); 
@@ -1192,7 +1191,7 @@ void loop()
   modo_leitura();
  }}}
   wdt_reset();
-  //}
+  }
 
 //181 = despedida
 //182 = introdução
