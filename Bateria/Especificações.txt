@@ -1,0 +1,50 @@
+Conexão das baterias de lítio 18650 3,7V na placa BMS (carregamento e distribuição de tensão)
+
+Placa BMS
+- Proteção contra sobrecarga e descarga excessiva
+- Proteção contra sobrecorrente
+- Proteção contra excesso de temperatura
+- Circuito de detecção de tensão de alta precisão
+- Função de balanceamento de tensão de carregamento automático
+
+BMS 3S 40A
+- Módulo de carregamento de bateria de lítio 3S (3 baterias de 3,7V em série) 12,6 V CC 40 A
+- Uma saída para carga e descarga simultaneamente 
+- Tensão de carregamento: 12,6 V ~ 13,6 V
+- Corrente de Descarga Contínua: 40A
+- Corrente de carga contínua: 20A
+- Consumo de corrente: 12 ~ 24uA
+- Tensão de proteção contra sobrecarga: 4,2 ~ 4,3V
+- Tensão inicial balanceada: 4,17 ~ 4,23V
+- Corrente de Equilíbrio: 95 ~ 105mA
+- Potência de aquecimento balanceada: 1,17 ~ 1,43 W
+- Tensão de Recuperação de Sobrecarga: 4,1 ~ 4,2V
+- Tensão de proteção contra descarga excessiva: 2,4 ~ 2,6V
+- Proteção contra sobretensão após proteção contra descarga excessiva: 2,8 ~ 3,8 V
+- Tensão de recuperação de descarga excessiva: 2,9 ~ 3,3V
+- Corrente de proteção contra sobrecorrente: 70 ~ 90A
+- Tempo de atraso de sobrecorrente: 100 ~ 200ms
+- Corrente operacional contínua: 0 ~ 40A
+- Potência de saída contínua: 0 ~ 504W
+- Dimensões: 41 x 60 x 3,4 mm
+
+BMS 3S 60A (Datasheet não encontrado)
+- Módulo de carregamento de bateria de lítio 3S (3 baterias de 3,7V em série) 12,6 V CC 60 A
+- 2 saídas: Uma para carga e outra para descarga
+- Tensão de carregamento: 12,6 V ~ 13,6 V
+- Corrente de Descarga Contínua: 60A
+- Corrente de carga contínua: 10A
+- Corrente operacional contínua: 0 ~ 60A
+- Dimensões: 41 x 62 x 3,4 mm
+
+Mostrador de bateria
+- O mostrador de bateria mostra 4 níveis de bateria: 25%/50%/75%/100% sendo que para 3 baterias de lítio 18650 3,7V em série:
+-- 0% ~ 10,3V (Apenas a borda vermelha acende)
+-- 25% ~ 10,9V (Uma barra acesa)
+-- 50% ~ 11,5V (Duas barras acesas)
+-- 75% ~ 12,1V (Três barras acesas)
+-- 100% ~ 12,6V  (Quatro barras acesas)
+- Vídeo de funcionamento (para conexão do mostrador de bateria em BMS 3S 40A): https://www.youtube.com/watch?v=vJmuF7AZDak
+- Vídeo mostrando a carga diminuindo e o funcionamento do medidor: https://www.youtube.com/watch?v=IBgpXOX99p8 (A partir de 9:23)
+
+**OBS: No Otto não usamos mostrador de bateria, o qual só será utilizado no BITI. Contudo os esquemas de ligação continuam os mesmos apresentados, apenas basta tirar a ligação do mostrador de bateria. 
