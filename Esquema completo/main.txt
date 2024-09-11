@@ -17,6 +17,8 @@
 
  DFPlayer -> RX no Resistor 1 Kohm conecta no ArduinoMega 10
  DFPlayer -> TX conecta no ArduinoMega 11
+ DFPlayer -> SPK_1 conecta no POS Auto Falante
+ DFPlayer -> SPK_2 conecta no GND Auto Falante
  DFPlayer -> VCC to Bus POS
 
  * CONEXÕES Teclado Numérico (PCI):
