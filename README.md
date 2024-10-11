@@ -74,9 +74,6 @@ Segue alguns projetos relacionados
 ## Autores
 
 - [@defaultdayanni](https://github.com/defaultdayanni?tab=repositories)
-- [@defaultDebbieMatt](https://github.com/defaultDebbieMatt?tab=repositories)
-- 
-
 
 # Modelagem e impressão 3D - Robô Otto 1.0
 
