@@ -36,7 +36,7 @@ Certifique-se de ter instalado as versões utilizadas a baixa para o bom funcion
 - infravermelho 
 - movimentação 
 
-Esquematico das funcionalidades: Regulador de Tensão + DF Player + Amplificador + Alto Falante, interconectadas no Otto. [link](https://github.com/ottoUFMT/OTTO_v1_v2/blob/792a10512dbab10a1e3bd95e7e9361bf6e7986fd/Esquem%C3%A1tico%20Circuito.jpeg) ; [Ilustração parecida](https://github.com/ottoUFMT/OTTO_v1_v2/blob/792a10512dbab10a1e3bd95e7e9361bf6e7986fd/Reprodutor%20de%20MP3.jpeg)
+Esquematico das funcionalidades: Regulador de Tensão + DF Player + Alto Falante + Capacitor, interconectadas no Otto. [link](https://github.com/ottoUFMT/OTTO_v1_v2/blob/792a10512dbab10a1e3bd95e7e9361bf6e7986fd/Esquem%C3%A1tico%20Circuito.jpeg) ; [Ilustração parecida](https://github.com/ottoUFMT/OTTO_v1_v2/blob/792a10512dbab10a1e3bd95e7e9361bf6e7986fd/Reprodutor%20de%20MP3.jpeg)
 
 
 
@@ -46,9 +46,13 @@ Esquematico das funcionalidades: Regulador de Tensão + DF Player + Amplificador
 
 - movimentação das orelhas e corpo 
 
-- olhos com luzes 
+- olhos com luzes
+  
+- Trocar cabos jumper, por cabo blindado.
 
+- PCB do regulador de tensão ter conectores parafusados.
 
+- Talvez adicionar fusivel.
 
 ## Relacionados
 
@@ -70,7 +74,8 @@ Segue alguns projetos relacionados
 ## Autores
 
 - [@defaultdayanni](https://github.com/defaultdayanni?tab=repositories)
-
+- [@defaultDebbieMatt](https://github.com/defaultDebbieMatt?tab=repositories)
+- 
 
 
 # Modelagem e impressão 3D - Robô Otto 1.0
