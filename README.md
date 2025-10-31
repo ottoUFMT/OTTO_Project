@@ -296,6 +296,10 @@ Colunas: Pino 42, 44, 46, 48, 49
 ### Esquema Eletrico
 ![Esquema elétrico](https://github.com/ottoUFMT/OTTO_v1_v2/blob/75738cb566f7fa2944ed9302c6d7c8f4769628b4/Esquema%20completo/Conex%C3%B5es_OTTO.png)
 
+### Circuito Elétrico do sistema de alimentação do Otto
+
+![BateriaBMS2040A](https://github.com/ottoUFMT/OTTO_v1_v2/blob/69dd56cb26443dcec2df00cbbc197150ca7c573f/Bateria/BMS%203S%2040A.png)
+
 ### Componentes Principais
 ```
 ┌─────────────────────────────────────────┐
