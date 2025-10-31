@@ -290,11 +290,11 @@ Colunas: Pino 42, 44, 46, 48, 49
 
 ## 🔗 Esquema de Conexões
 
-### Diagrama Completo (desconsidere o potenciometro, ele foi retirado, o alto falante é ligado diretamente no DFPlayer)
+### Diagrama (desconsidere o potenciometro, ele foi retirado, o alto falante é ligado diretamente no DFPlayer)
 ![Esquemático do Circuito](Esquemático%20Circuito.jpeg)
 
-### Sistema de Áudio
-![Reprodutor MP3](Reprodutor%20de%20MP3.jpeg)
+### Esquema Eletrico
+![Esquema elétrico](https://github.com/ottoUFMT/OTTO_v1_v2/blob/75738cb566f7fa2944ed9302c6d7c8f4769628b4/Esquema%20completo/Conex%C3%B5es_OTTO.png)
 
 ### Componentes Principais
 ```
