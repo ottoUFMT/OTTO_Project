@@ -530,6 +530,13 @@ Contribuições são sempre bem-vindas! Siga os passos:
           <b>Dayanni</b><br>
           <small>Programação & Eletrônica</small>
         </sub>
+         <td align="center">
+      <a href="https://github.com/DebbieMatt" title="Colaboradora">
+        <img src="https://avatars.githubusercontent.com/u/112919058?v=4" width="100px;" alt="Foto da Débora"/><br>
+        <sub>
+          <b>Débora Mateus</b><br>
+          <small>Programação & Eletrônica</small>
+         </sub>
 </table>
 
 ### 🎨 Modelagem 3D
