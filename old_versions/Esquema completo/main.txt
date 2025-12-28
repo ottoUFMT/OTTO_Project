@@ -1,0 +1,67 @@
+* Precisaremos:
+
+- Place ArduinoMega
+- DFPlayer (PCI)
+- Resistor 1 Kohm (PCI)
+- Speaker05W
+- Teclado Numérico (PCI)
+- LedMatrix
+- Leitor RFID
+- TSOP38238 (Receptor infravermelho 2.5-5.5V 38kHz)
+- Motor de Passo (Servo motor)
+
+* CONEXÕES: 
+ ArduinoMega -> GND no GND Protoboard
+ ArduinoMega -> 5v  no POS Protoboard
+
+* CONEXÕES DFPlayer (PCI):
+
+ DFPlayer -> RX no Resistor 1 Kohm conecta no ArduinoMega 11
+ DFPlayer -> TX conecta no ArduinoMega 10
+ DFPlayer -> SPK_1 conecta no POS Auto Falante
+ DFPlayer -> SPK_2 conecta no GND Auto Falante
+ DFPlayer -> VCC to Bus POS
+
+ * CONEXÕES Teclado Numérico (PCI):
+ 
+ KeyPadMem3x4 -> COLUNA1 to ArduinoMega 42 (VERMELHO)
+ KeyPadMem3x4 -> COLUNA2 to ArduinoMega 44 (LARANJA)
+ KeyPadMem3x4 -> COLUNA3 to ArduinoMega 46 (AMARELO)
+ KeyPadMem3x4 -> COLUNA4 to ArduinoMega 48 (MARROM)
+ KeyPadMem3x4 -> COLUNA5 to ArduinoMega 49 (BRANCO)
+ 
+ KeyPadMem3x4 -> LINHA1 to ArduinoMega 38 (CINZA)
+ KeyPadMem3x4 -> LINHA2 to ArduinoMega 40 (ROXO)
+
+ * CONEXÕES LedMatrix:
+
+ LedMatrix -> CLK to ArduinoMega 24
+ LedMatrix -> CS to ArduinoMega  26
+ LedMatrix -> DIN to ArduinoMega 22
+ LedMatrix -> GND no GND ArduinoMega
+ LedMatrix -> VCC no POS ArduinoMega
+
+ * CONEXÕES RFID:
+ 
+ RFID -> 3.3v to ArduinoMega    3.3v
+ RFID -> GND no GND ArduinoMega
+ RFID -> MISO to ArduinoMega    50
+ RFID -> MOSI to ArduinoMega    51
+ RFID -> RST to ArduinoMega     5
+ RFID -> SCK to ArduinoMega     52
+ RFID -> SDA(SS) to ArduinoMega 53
+
+ * CONEXÕES TSOP38238:
+
+TSOP38238 Gnd no GND ArduinoMega
+TSOP38238 Out to ArduinoMega 30
+TSOP38238 VCC to ArduinoMega 5V
+
+* CONEXÕES MOTOR DE PASSO:
+
+MOTOR DE PASSO (PÉ ESQUERDO) ->  2 ArduinoMega
+MOTOR DE PASSO (PÉ DIREITO)  ->  3 ArduinoMega
+MOTOR DE PASSO (MÃO ESQUERDA) -> 6 ArduinoMega
+MOTOR DE PASSO (MÃO DIREITA)  -> 7 ArduinoMega
+ 
+ 

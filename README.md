@@ -39,7 +39,7 @@
 
 ## 🎯 Sobre o Projeto
 
-O **Otto 1.0** é um robô educacional open-source desenvolvido para ensinar programação, eletrônica e robótica de forma interativa e divertida. Este repositório contém a versão 2.0 do código, completamente refatorada e documentada, além dos arquivos de modelagem 3D para impressão.
+O **Otto** é um robô educacional open-source desenvolvido para ensinar programação, eletrônica e robótica de forma interativa e divertida. Este repositório contém a versão atual do código, completamente refatorada e documentada, além dos arquivos de modelagem 3D para impressão.
 
 ### ✨ Características Principais
 
@@ -59,16 +59,17 @@ O **Otto 1.0** é um robô educacional open-source desenvolvido para ensinar pro
 
 ```
 OTTO_v1_v2/
-├── Prog_otto_03_10_oficial.ino    # Código principal (versão original)
-├── Otto_Improved.ino               # Código refatorado v2.0
-├── otto_1.0-stl/                   # Arquivos para impressão 3D
-│   ├── corpo.stl
-│   ├── pernas.stl
-│   ├── bracos.stl
-│   └── cabeca.stl
-├── Esquemático Circuito.jpeg       # Diagrama de conexões
-├── Reprodutor de MP3.jpeg          # Ilustração do sistema de áudio
-└── README.md                       # Este arquivo
+├──Software
+│  └── Programacao_2025.ino       #Código
+├──Hardware
+│  ├── Bateria.png                #Esquematico da Bateria 
+│  ├── Componentes.png            #Esquematico dos Componentes 
+│  └── Hardware_2025.pdf          #Esquematicos com melhor resolução 
+├──Modelagem_3d
+│   ├── amarelo                   #Arquivos para impressão 3D
+│   ├── azul                      #Arquivos para impressão 3D
+│   └── preto                     #Arquivos para impressão 3D
+└── README.md                     #Este arquivo
 ```
 
 ### 🔧 Linguagem e Plataforma
@@ -94,7 +95,7 @@ Antes de começar, certifique-se de ter:
 
 | Componente | Quantidade | Especificação |
 |------------|-----------|---------------|
-| Arduino Mega 2560 | 1x | Microcontrolador principal |
+| Arduino Mega 2560 pro mini | 1x | Microcontrolador principal |
 | Servo Motor SG90 | 4x | Movimentação de braços e pernas |
 | DFPlayer Mini | 1x | Módulo de áudio MP3 |
 | Alto-falante | 1x | 3W, 8Ω |
@@ -103,7 +104,6 @@ Antes de começar, certifique-se de ter:
 | Receptor IR | 1x | VS1838B ou similar |
 | Teclado Matricial | 1x | 2x5 (10 teclas) |
 | Regulador de Tensão | 1x | LM2596 ou similar (5V, 3A) |
-| Capacitor | 1x | 1000µF, 16V (estabilização) |
 | Bateria | 1x | 7.4V LiPo 2S ou 6x AA |
 | Resistores | Diversos | 1kΩ, 10kΩ |
 
@@ -178,8 +178,8 @@ Pino 7  → Braço Direito (Right Arm)
 
 #### **DFPlayer Mini (Áudio)**
 ```cpp
-Pino 10 → RX (DFPlayer)
-Pino 11 → TX (DFPlayer)
+Pino 11 → RX (DFPlayer)
+Pino 10 → TX (DFPlayer)
         → VCC → 5V (regulado)
         → GND → GND
         → SPK+ → Alto-falante +
@@ -208,7 +208,7 @@ Pino 26 → CS (Chip Select)
 
 #### **Receptor IR**
 ```cpp
-Pino 30 → Signal
+Pino 13 → Signal
         → VCC → 5V
         → GND → GND
 ```
@@ -216,7 +216,7 @@ Pino 30 → Signal
 #### **Teclado Matricial 2x5**
 ```cpp
 Linhas:  Pino 40, 38
-Colunas: Pino 42, 44, 46, 48, 49
+Colunas: Pino 42, 44, 46, 48, 47
 ```
 
 ---
@@ -291,7 +291,7 @@ Colunas: Pino 42, 44, 46, 48, 49
 ## 🔗 Esquema de Conexões
 
 ### Diagrama (desconsidere o potenciometro, ele foi retirado, o alto falante é ligado diretamente no DFPlayer)
-![Esquemático do Circuito](Esquemático%20Circuito.jpeg)
+![Esquemático do Circuito](Componentes.png)
 
 ### Esquema Eletrico
 ![Esquema elétrico](https://github.com/ottoUFMT/OTTO_v1_v2/blob/75738cb566f7fa2944ed9302c6d7c8f4769628b4/Esquema%20completo/Conex%C3%B5es_OTTO.png)
@@ -305,9 +305,9 @@ Para saber as [especificações técnicas da bateria](https://github.com/ottoUFM
 ### Componentes Principais
 ```
 ┌─────────────────────────────────────────┐
-│         Arduino Mega 2560               │
+│         Arduino Mega 2560 pro           │
 │                                         │
-│  [Servos] [DFPlayer] [RFID] [IR] [LED] │
+│  [Servos] [DFPlayer] [RFID] [IR] [LED]  │
 │     │         │         │      │     │  │
 └─────┼─────────┼─────────┼──────┼─────┼──┘
       │         │         │      │     │
@@ -386,7 +386,7 @@ VERDE → Habilita/desabilita teclado
 
 ### 📐 Arquivos para Impressão
 
-Todos os arquivos STL estão na pasta `otto_1.0-stl/`
+Todos os arquivos STL estão na pasta `Hardware/`
 
 ### Requisitos de Impressão
 
@@ -432,7 +432,7 @@ Todos os arquivos STL estão na pasta `otto_1.0-stl/`
 Erro: "Nao inicializado: Cheque as conexoes"
 
 Soluções:
-✅ Verifique conexões TX/RX (pinos 10 e 11)
+✅ Verifique conexões TX/RX (pinos 11 e 10)
 ✅ Use resistor de 1kΩ no RX do DFPlayer
 ✅ Formate cartão SD em FAT32
 ✅ Renomeie arquivos: 0001.mp3, 0002.mp3...
