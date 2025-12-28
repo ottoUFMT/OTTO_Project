@@ -523,8 +523,6 @@ Contribuições são sempre bem-vindas! Siga os passos:
 
 ### 💻 Desenvolvimento de Software
 
-### 💻 Desenvolvimento de Software
-
 <table>
   <tr>
     <td align="center">
