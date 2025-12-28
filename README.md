@@ -1,4 +1,4 @@
-# 🤖 Robô Otto 1.0 - Repositório Oficial
+# 🤖 Robô Otto - Repositório Oficial
 
 <div align="center">
 
