@@ -290,15 +290,11 @@ Colunas: Pino 42, 44, 46, 48, 47
 
 ## 🔗 Esquema de Conexões
 
-### Diagrama (desconsidere o potenciometro, ele foi retirado, o alto falante é ligado diretamente no DFPlayer)
-![Esquemático do Circuito](Componentes.png)
-
-### Esquema Eletrico
-![Esquema elétrico](https://github.com/ottoUFMT/OTTO_v1_v2/blob/75738cb566f7fa2944ed9302c6d7c8f4769628b4/Esquema%20completo/Conex%C3%B5es_OTTO.png)
+### Diagrama de Componentes
+![Componentes](Hardware/Componentes.png)
 
 ### Circuito Elétrico do Sistema de Alimentação do Otto
-
-![BateriaBMS2040A](https://github.com/ottoUFMT/OTTO_v1_v2/blob/69dd56cb26443dcec2df00cbbc197150ca7c573f/Bateria/BMS%203S%2040A.png)
+![Bateria](Hardware/Bateria.png)
 
 Para saber as [especificações técnicas da bateria](https://github.com/ottoUFMT/OTTO_v1_v2/blob/9e59030a3d1729480948bee1795932de72b58ab2/Bateria/Especifica%C3%A7%C3%B5es.txt), basta acessar a pasta correspondente, lá consta o seu [datasheet](https://github.com/ottoUFMT/OTTO_v1_v2/blob/9e59030a3d1729480948bee1795932de72b58ab2/Bateria/BMS-40A-3S_DATASHEET.pdf), sobre o [mostrador de bateria](https://github.com/ottoUFMT/OTTO_v1_v2/blob/9e59030a3d1729480948bee1795932de72b58ab2/Bateria/Mostrador%20de%20bateria.png), bem como ligações elétricas.
 
@@ -527,6 +523,8 @@ Contribuições são sempre bem-vindas! Siga os passos:
 
 ### 💻 Desenvolvimento de Software
 
+### 💻 Desenvolvimento de Software
+
 <table>
   <tr>
     <td align="center">
@@ -536,13 +534,27 @@ Contribuições são sempre bem-vindas! Siga os passos:
           <b>Dayanni</b><br>
           <small>Programação & Eletrônica</small>
         </sub>
-         <td align="center">
-      <a href="https://github.com/DebbieMatt" title="Colaboradora">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DebbieMatt">
         <img src="https://avatars.githubusercontent.com/u/112919058?v=4" width="100px;" alt="Foto da Débora"/><br>
         <sub>
           <b>Débora Mateus</b><br>
           <small>Programação & Eletrônica</small>
-         </sub>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/luizgsantos-dev">
+        <img src="https://github.com/luizgsantos-dev.png" width="100px;" alt="Sua Foto do Luiz"/><br>
+        <sub>
+          <b>Luiz Guilherme</b><br>
+          <small>Programação & Eletrônica</small>
+        </sub>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ### 🎨 Modelagem 3D
