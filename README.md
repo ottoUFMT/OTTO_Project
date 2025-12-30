@@ -59,8 +59,6 @@ O **Otto** é um robô educacional open-source desenvolvido para ensinar program
 
 ```
 OTTO_v1_v2/
-├──Software
-│  └── Programacao_2025.ino       #Código
 ├──Hardware
 │  ├── Bateria.png                #Esquematico da Bateria 
 │  ├── Componentes.png            #Esquematico dos Componentes 
@@ -69,6 +67,9 @@ OTTO_v1_v2/
 │   ├── amarelo                   #Arquivos para impressão 3D
 │   ├── azul                      #Arquivos para impressão 3D
 │   └── preto                     #Arquivos para impressão 3D
+├──Software
+│  └── Programacao_2025.ino       #Código
+├──old_versions                   #Arquivos pré 2025
 └── README.md                     #Este arquivo
 ```
 
